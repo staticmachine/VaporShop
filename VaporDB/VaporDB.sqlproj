@@ -61,8 +61,23 @@
     <Build Include="Tables\Goods.sql" />
     <Build Include="Tables\GoodsType.sql" />
     <Build Include="Foreign Keys\FK_Goods_GoodsType.sql" />
+    <Build Include="Foreign Keys\FK_Goods_Brand.sql" />
+    <Build Include="Tables\User.sql" />
+    <Build Include="Tables\Order.sql" />
+    <Build Include="Foreign Keys\FK_Order_User.sql" />
+    <Build Include="Tables\OrderGoods.sql" />
+    <Build Include="Foreign Keys\FK_OrderGoods_Goods.sql" />
+    <Build Include="Tables\ELiquid.sql" />
+    <Build Include="Foreign Keys\FK_ELiquid_Goods.sql" />
+    <Build Include="Tables\Basket.sql" />
+    <Build Include="Foreign Keys\FK_Basket_Goods.sql" />
+    <Build Include="Foreign Keys\FK_Basket_User.sql" />
+    <Build Include="Foreign Keys\FK_OrderGoods_Order.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="VaporDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment1.sql" />
   </ItemGroup>
 </Project>

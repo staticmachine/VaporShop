@@ -2,6 +2,7 @@
 (
 	[Id] INT NOT NULL , 
     [Name] VARCHAR(20) NOT NULL, 
-    [GoodsType] INT NOT NULL, 
+    [TypeId] INT NOT NULL, 
+    [BrandId] INT NOT NULL, 
     PRIMARY KEY ([Id])
 )
