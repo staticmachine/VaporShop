@@ -1,0 +1,9 @@
+D:\Repository\VaporShop\VaporDB\bin\Debug\VaporDB.dacpac
+D:\Repository\VaporShop\VaporDB\bin\Debug\VaporDB.dll
+D:\Repository\VaporShop\VaporDB\bin\Debug\VaporDB.pdb
+D:\Repository\VaporShop\VaporDB\obj\Debug\Model.xml
+D:\Repository\VaporShop\VaporDB\obj\Debug\refactor.xml
+D:\Repository\VaporShop\VaporDB\obj\Debug\postdeploy.sql
+D:\Repository\VaporShop\VaporDB\obj\Debug\predeploy.sql
+D:\Repository\VaporShop\VaporDB\obj\Debug\VaporDB.dll
+D:\Repository\VaporShop\VaporDB\obj\Debug\VaporDB.pdb
