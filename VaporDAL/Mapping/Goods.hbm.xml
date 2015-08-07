@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" 
+                   assembly="VaporDAL" 
+                   namespace="VaporDAL">
+
+  <class name="Goods">
+    <id name="Id">
+      <generator class="int" />
+    </id>
+    <property name="Name" />
+    <property name="TypeId" />
+    <property name="BrandId" />
+  </class>
+  
+</hibernate-mapping>
