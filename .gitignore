@@ -43,5 +43,9 @@ Temporary Items
 .apdisk
 
 # .Net binary directories
-bin/**
-obj/**
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
