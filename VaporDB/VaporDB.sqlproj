@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{d1146251-44cc-4e68-9be9-b7c50da7727d}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql100DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -53,5 +53,16 @@
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="Foreign Keys" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Brand.sql" />
+    <Build Include="Tables\Goods.sql" />
+    <Build Include="Tables\GoodsType.sql" />
+    <Build Include="Foreign Keys\FK_Goods_GoodsType.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="VaporDB.refactorlog" />
   </ItemGroup>
 </Project>
